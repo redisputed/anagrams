@@ -23,7 +23,6 @@ class TestLoadDictionary(unittest.TestCase):
         self.assertEqual(loaded_txt[2], 'contents')
         self.assertEqual(loaded_txt[3], 'lowercase')
 
-
     def tearDown(self):
         if os.path.isfile(self.file_name):
             try:
